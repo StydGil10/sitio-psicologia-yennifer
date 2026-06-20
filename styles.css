@@ -195,6 +195,7 @@ a{color:inherit}
 .hero-visual{
   position:relative;
   min-height:450px;
+  overflow:visible;
 }
 .photo-card{
   position:relative;
@@ -204,6 +205,7 @@ a{color:inherit}
   padding:18px;
   box-shadow:var(--shadow);
   transform:rotate(1.5deg);
+  overflow:hidden;
 }
 .photo-card::before{
   content:"";
@@ -217,18 +219,20 @@ a{color:inherit}
   width:100%;
   aspect-ratio:1/1;
   object-fit:cover;
+  object-position:center top;
   display:block;
   border-radius:26px;
 }
 .floating-card{
   position:absolute;
-  left:-22px;
+  left:22px;
+  right:22px;
   bottom:22px;
-  max-width:285px;
-  background:rgba(255,255,255,.94);
+  max-width:360px;
+  background:rgba(255,255,255,.95);
   border:1px solid var(--border);
   border-radius:22px;
-  padding:18px;
+  padding:16px 18px;
   box-shadow:var(--shadow);
 }
 .floating-card span{
@@ -487,7 +491,7 @@ a{color:inherit}
     grid-template-columns:1fr;
   }
   .hero-visual{min-height:auto}
-  .floating-card{position:static;margin:-18px 18px 0;max-width:none}
+  .floating-card{position:relative;left:auto;right:auto;bottom:auto;margin:14px 0 0;max-width:none}
   .photo-card{transform:none}
   .trust-row{grid-template-columns:1fr}
   .info-card{position:static}

@@ -20,3 +20,5 @@ Archivos principales:
 - yennifer-nueva.jpg
 
 Para publicar en Netlify conectado a GitHub, reemplaza/sube estos archivos en el repositorio y Netlify actualizará el sitio automáticamente.
+
+Actualización v2.1: se corrigió la tarjeta flotante sobre la foto para que no se salga ni tape mal la imagen.
