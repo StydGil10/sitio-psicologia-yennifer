@@ -3,121 +3,228 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yennifer Buriticá Gil | Psicóloga</title>
-  <meta name="description" content="Psicóloga especialista en salud mental. Terapia individual para niños, adolescentes y adultos, terapia de familia, asesoría en crianza, proyecto de vida y orientación vocacional." />
+  <title>Yennifer Buriticá Gil | Psicóloga especialista en salud mental</title>
+  <meta name="description" content="Atención psicológica presencial y virtual para niños, adolescentes, adultos y familias. Psicóloga especialista en salud mental con enfoque humano, ético y cercano." />
+  <meta name="theme-color" content="#0f7f82" />
+  <meta property="og:title" content="Yennifer Buriticá Gil | Psicóloga" />
+  <meta property="og:description" content="Acompañamiento psicológico profesional, cercano y humano para niños, adolescentes, adultos y familias." />
+  <meta property="og:image" content="yennifer-nueva.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="container nav">
-      <div>
-        <h1>Yennifer Buriticá Gil</h1>
-        <p>Psicóloga especialista en salud mental</p>
-      </div>
-      <a class="btn" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">Agendar por WhatsApp</a>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">YB</span>
+        <span>
+          <strong>Yennifer Buriticá Gil</strong>
+          <small>Psicóloga especialista en salud mental</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#ayuda">Cuándo buscar ayuda</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn-small" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">Agendar cita</a>
     </div>
   </header>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-text">
-        <span class="eyebrow">Bienestar emocional y acompañamiento profesional</span>
-        <h2>Un espacio de apoyo para niños, adolescentes, adultos y familias</h2>
-        <p>
-          Atención psicológica con enfoque humano, ético y cercano para acompañar procesos emocionales,
-          familiares y de crecimiento personal.
-        </p>
-        <div class="hero-actions">
-          <a class="btn" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">Escríbeme por WhatsApp</a>
-          <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">Bienestar emocional y acompañamiento profesional</span>
+          <h1>Un espacio seguro para sanar, comprenderte y avanzar</h1>
+          <p>
+            Atención psicológica con enfoque humano, ético y cercano para acompañar procesos emocionales,
+            familiares y de crecimiento personal en niños, adolescentes, adultos y familias.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">Escríbeme por WhatsApp</a>
+            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+          </div>
+          <div class="trust-row" aria-label="Datos de confianza">
+            <div><strong>10 años</strong><span>de experiencia</span></div>
+            <div><strong>Presencial</strong><span>y virtual</span></div>
+            <div><strong>Niños, jóvenes</strong><span>adultos y familias</span></div>
+          </div>
         </div>
-      </div>
-      <div class="hero-card">
-        <img src="yennifer-nueva.jpg" alt="Foto de Yennifer Buriticá Gil" />
+
+        <div class="hero-visual">
+          <div class="photo-card">
+            <img src="yennifer-nueva.jpg" alt="Foto de Yennifer Buriticá Gil" />
+          </div>
+          <div class="floating-card">
+            <span>Atención cercana</span>
+            <strong>Proceso terapéutico con empatía, respeto y confidencialidad.</strong>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="cards container">
-      <article class="card">
+    <section class="quick-cards container" aria-label="Servicios destacados">
+      <article class="quick-card">
+        <span class="icon">🧠</span>
         <h3>Atención individual</h3>
         <p>Terapia individual para niños, adolescentes y adultos.</p>
       </article>
-      <article class="card">
+      <article class="quick-card">
+        <span class="icon">🤝</span>
         <h3>Acompañamiento familiar</h3>
-        <p>Terapia de familia y asesoría en crianza para fortalecer la convivencia y el apoyo en casa.</p>
+        <p>Terapia de familia y asesoría en crianza para fortalecer la convivencia.</p>
       </article>
-      <article class="card">
+      <article class="quick-card">
+        <span class="icon">🌱</span>
         <h3>Orientación personalizada</h3>
-        <p>Orientación vocacional y desarrollo de proyecto de vida.</p>
+        <p>Orientación vocacional, proyecto de vida y crecimiento personal.</p>
       </article>
     </section>
 
-    <section id="servicios" class="section-alt">
+    <section id="servicios" class="section section-white">
       <div class="container">
-        <span class="eyebrow">Servicios</span>
-        <h2>¿En qué te puedo ayudar?</h2>
+        <div class="section-heading">
+          <span class="eyebrow">Servicios</span>
+          <h2>¿En qué te puedo ayudar?</h2>
+          <p>Espacios de acompañamiento psicológico pensados para diferentes etapas, necesidades y procesos personales o familiares.</p>
+        </div>
+
         <div class="service-grid">
-          <div class="service-card">
+          <article class="service-card">
+            <span class="service-icon">🧠</span>
             <h3>Terapia individual</h3>
             <p>Atención psicológica para niños, adolescentes y adultos.</p>
-          </div>
-          <div class="service-card">
+          </article>
+          <article class="service-card">
+            <span class="service-icon">👨‍👩‍👧</span>
             <h3>Terapia de familia</h3>
             <p>Espacios para fortalecer la comunicación y el acompañamiento familiar.</p>
-          </div>
-          <div class="service-card">
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🤍</span>
             <h3>Asesoría en crianza</h3>
             <p>Apoyo y herramientas para madres, padres y cuidadores.</p>
-          </div>
-          <div class="service-card">
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🌿</span>
             <h3>Proyecto de vida</h3>
             <p>Acompañamiento para metas personales, autoestima y propósito.</p>
-          </div>
-          <div class="service-card">
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🎓</span>
             <h3>Orientación vocacional</h3>
             <p>Apoyo para decisiones académicas y ocupacionales.</p>
-          </div>
-          <div class="service-card">
+          </article>
+          <article class="service-card">
+            <span class="service-icon">💬</span>
             <h3>Acompañamiento emocional</h3>
-            <p>Atención en ansiedad y dificultades emocionales.</p>
-          </div>
+            <p>Atención en ansiedad, estrés y dificultades emocionales.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="container about">
-      <div>
-        <span class="eyebrow">Sobre mí</span>
-        <h2>Atención cercana y profesional</h2>
-        <p>
-          Soy Yennifer Buriticá Gil, psicóloga especialista en salud mental. Brindo acompañamiento psicológico desde una atención humana, ética y cercana,
-          orientada al bienestar emocional, el fortalecimiento familiar y el desarrollo personal.
-        </p>
-        <p>
-          Llevo 10 años brindando mis servicios como terapeuta, he orientado en diversas problemáticas,
-          logrando avances significativos en mis pacientes.
-        </p>
-        <p>
-          Trabajo desde el enfoque cognitivo conductual, con amplia experiencia en trauma y en los cambios propios de cada etapa del desarrollo.
-          Además, brindo herramientas para afrontar ansiedad, alteraciones emocionales, bajo rendimiento académico, dificultades de conducta y procesos de orientación personal.
-        </p>
-      </div>
-      <div class="highlight">
-        <h3>Información de atención</h3>
-        <p><strong>Modalidad:</strong> presencial y virtual</p>
-        <p><strong>Horario:</strong> lunes a viernes de 8:00 a.m. a 6:00 p.m.</p>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">324 345 1627</a></p>
-        <p><strong>Correo:</strong> <a href="mailto:terapeuta.yennifer@gmail.com">terapeuta.yennifer@gmail.com</a></p>
+    <section id="ayuda" class="section help-section">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow">Cuándo buscar ayuda</span>
+          <h2>Iniciar terapia puede ser un paso importante hacia tu bienestar</h2>
+          <p>
+            No necesitas esperar a sentirte al límite para pedir apoyo. La terapia puede ayudarte a entender lo que sientes,
+            fortalecer tus recursos personales y tomar decisiones con mayor claridad.
+          </p>
+          <a class="btn" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">Quiero orientación</a>
+        </div>
+
+        <div class="help-list">
+          <div><span>✓</span> Ansiedad, estrés o preocupación constante</div>
+          <div><span>✓</span> Dificultades familiares o de comunicación</div>
+          <div><span>✓</span> Cambios emocionales o momentos difíciles</div>
+          <div><span>✓</span> Bajo rendimiento académico o dificultades de conducta</div>
+          <div><span>✓</span> Dudas sobre proyecto de vida u orientación vocacional</div>
+          <div><span>✓</span> Necesidad de fortalecer autoestima y bienestar emocional</div>
+        </div>
       </div>
     </section>
 
-    <section class="testimonials section-alt">
+    <section id="sobre-mi" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">Sobre mí</span>
+          <h2>Atención cercana y profesional</h2>
+          <p>
+            Soy Yennifer Buriticá Gil, psicóloga especialista en salud mental. Brindo acompañamiento psicológico desde una atención humana, ética y cercana,
+            orientada al bienestar emocional, el fortalecimiento familiar y el desarrollo personal.
+          </p>
+          <p>
+            Llevo 10 años brindando mis servicios como terapeuta, he orientado en diversas problemáticas,
+            logrando avances significativos en mis pacientes.
+          </p>
+          <p>
+            Trabajo desde el enfoque cognitivo conductual, con amplia experiencia en trauma y en los cambios propios de cada etapa del desarrollo.
+            Además, brindo herramientas para afrontar ansiedad, alteraciones emocionales, bajo rendimiento académico, dificultades de conducta y procesos de orientación personal.
+          </p>
+        </div>
+
+        <aside class="info-card">
+          <h3>Información de atención</h3>
+          <p><strong>Modalidad:</strong> presencial y virtual</p>
+          <p><strong>Horario:</strong> lunes a viernes de 8:00 a.m. a 6:00 p.m.</p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">324 345 1627</a></p>
+          <p><strong>Correo:</strong> <a href="mailto:terapeuta.yennifer@gmail.com">terapeuta.yennifer@gmail.com</a></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section process-section">
       <div class="container">
-        <span class="eyebrow">Testimonios</span>
-        <h2>Experiencias de acompañamiento</h2>
-        <p class="section-intro">
-          Algunas palabras de personas y familias que han vivido su proceso terapéutico con acompañamiento profesional.
-        </p>
+        <div class="section-heading center">
+          <span class="eyebrow">Proceso terapéutico</span>
+          <h2>¿Cómo iniciar tu proceso?</h2>
+          <p>Agendar una cita puede ser sencillo. Estos son los primeros pasos para comenzar.</p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <span>1</span>
+            <h3>Escríbeme</h3>
+            <p>Comunícate por WhatsApp o correo para recibir información inicial.</p>
+          </article>
+          <article class="process-card">
+            <span>2</span>
+            <h3>Agenda tu cita</h3>
+            <p>Definimos la modalidad de atención y el horario que mejor se ajuste.</p>
+          </article>
+          <article class="process-card">
+            <span>3</span>
+            <h3>Valoración inicial</h3>
+            <p>Conversamos sobre tu motivo de consulta y tus necesidades actuales.</p>
+          </article>
+          <article class="process-card">
+            <span>4</span>
+            <h3>Acompañamiento</h3>
+            <p>Construimos herramientas para avanzar en tu bienestar emocional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section testimonials-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Testimonios</span>
+          <h2>Experiencias de acompañamiento</h2>
+          <p>Algunas palabras de personas y familias que han vivido su proceso terapéutico con acompañamiento profesional.</p>
+        </div>
+
         <div class="testimonial-grid">
           <article class="testimonial-card">
             <p>
@@ -125,21 +232,18 @@
             </p>
             <h3>Madre de paciente</h3>
           </article>
-
           <article class="testimonial-card">
             <p>
               “Antes de iniciar mi proceso estaba pasando por un momento muy difícil, me sentía sola y con muchas dificultades en mi vida escolar y social. Gracias a la ayuda psicológica he mejorado, me desenvuelvo mejor al conocer personas y me siento mucho más feliz.”
             </p>
             <h3>Paciente joven</h3>
           </article>
-
           <article class="testimonial-card">
             <p>
               “Mi experiencia en terapia ha sido profundamente significativa. Desde el inicio me he sentido escuchada, comprendida y acompañada. Este espacio me ha permitido conocerme mejor, identificar patrones y desarrollar herramientas para afrontar mis emociones de manera más saludable.”
             </p>
             <h3>Paciente adulta</h3>
           </article>
-
           <article class="testimonial-card">
             <p>
               “La terapia se convirtió en un espacio donde pude observarme sin sentirme juzgado. Gracias al proceso adquirí herramientas como paciencia, empatía, responsabilidad, amor y tranquilidad para afrontar los cambios sin temor.”
@@ -150,7 +254,35 @@
       </div>
     </section>
 
-    <section class="cta">
+    <section class="section faq-section">
+      <div class="container faq-grid">
+        <div>
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Resuelve tus primeras dudas</h2>
+          <p>Estas respuestas pueden ayudarte antes de agendar tu primera cita.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>¿La atención es presencial o virtual?</summary>
+            <p>La atención puede ser presencial o virtual, de acuerdo con la necesidad de cada paciente y la disponibilidad de agenda.</p>
+          </details>
+          <details>
+            <summary>¿Atiendes niños, adolescentes y adultos?</summary>
+            <p>Sí. Se brinda atención psicológica a niños, adolescentes, adultos y familias.</p>
+          </details>
+          <details>
+            <summary>¿Cómo puedo agendar una cita?</summary>
+            <p>Puedes escribir por WhatsApp al 324 345 1627 o enviar un correo a terapeuta.yennifer@gmail.com.</p>
+          </details>
+          <details>
+            <summary>¿La terapia es confidencial?</summary>
+            <p>Sí. El proceso terapéutico se desarrolla desde la ética profesional, el respeto y la confidencialidad.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta-section">
       <div class="container cta-box">
         <div>
           <span class="eyebrow">Agenda tu cita</span>
@@ -165,11 +297,14 @@
     </section>
   </main>
 
-  <a class="whatsapp-float" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer" aria-label="Agendar cita por WhatsApp">WhatsApp</a>
+  <a class="whatsapp-float" href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer" aria-label="Agendar cita por WhatsApp">
+    <span>✆</span> Agenda tu cita
+  </a>
 
   <footer class="footer">
-    <div class="container">
+    <div class="container footer-grid">
       <p>© 2026 Yennifer Buriticá Gil · Psicóloga especialista en salud mental</p>
+      <a href="https://wa.me/573243451627?text=Hola%2C%20quisiera%20agendar%20una%20cita%20psicol%C3%B3gica." target="_blank" rel="noopener noreferrer">WhatsApp: 324 345 1627</a>
     </div>
   </footer>
 </body>
