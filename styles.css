@@ -223,25 +223,7 @@ a{color:inherit}
   display:block;
   border-radius:26px;
 }
-.floating-card{
-  position:absolute;
-  left:22px;
-  right:22px;
-  bottom:22px;
-  max-width:360px;
-  background:rgba(255,255,255,.95);
-  border:1px solid var(--border);
-  border-radius:22px;
-  padding:16px 18px;
-  box-shadow:var(--shadow);
-}
-.floating-card span{
-  display:block;
-  color:var(--primary-dark);
-  font-weight:800;
-  margin-bottom:4px;
-}
-.floating-card strong{font-size:.98rem}
+
 .quick-cards{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
@@ -491,7 +473,6 @@ a{color:inherit}
     grid-template-columns:1fr;
   }
   .hero-visual{min-height:auto}
-  .floating-card{position:relative;left:auto;right:auto;bottom:auto;margin:14px 0 0;max-width:none}
   .photo-card{transform:none}
   .trust-row{grid-template-columns:1fr}
   .info-card{position:static}
